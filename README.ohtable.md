@@ -4,13 +4,13 @@ La classe OHTable permet de créer des objets de type table de hachage
 à adressage ouvert avec des clefs de type chaines de caractère C
 traditionnelles, portable, héritable et performante.
 
-OHTable : Classe table de hachage
-*  Membre privés : 
-**	OHTable( const OHTable & )
-***		construction par recopie interdite
-**	OHTable & operator = ( const OHTable & )
-***		assignation interdite
-*  Membres protégés :
+## OHTable : Classe table de hachage
+Membre privés : 
+*	OHTable( const OHTable & )
+		construction par recopie interdite
+*	OHTable & operator = ( const OHTable & )
+		assignation interdite
+Membres protégés :
 **	int Size;
 **	int Capacity;
 **	int init(const int)
